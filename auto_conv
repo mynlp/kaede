@@ -49,7 +49,8 @@ echo "converting MAI95.TXT to SGML ..."
 $PERL $SRC_DIR/trans.pl < $CDROM_DIR/MAI95.TXT 2> /dev/null | $PERL $SRC_DIR/mainichi.pl $DEST_DIR
 
 echo "making KyotoCorpus (syn) ..."
-for i in 01 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17
+#for i in 01 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17
+for i in 01 03 04 05 06 07 08 09 10
 do
     echo "converting 9501$i ..."
     $PERL $SRC_DIR/format.pl -exed 9501$i < $DEST_DIR/9501.all | $PERL $SRC_DIR/dupli.pl > $DEST_DIR/9501$i.org
@@ -70,7 +71,8 @@ done
 make_dir $TOKEN_DIR
 
 echo "merging texts and trees ..."
-for i in 01 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17
+#for i in 01 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17
+for i in 01 03 04 05 06 07 08 09 10
 do
     echo "merging 9501$i ..."
     $PYTHON $MERGE $DEST_DIR/9501$i.org $NOTOKEN_DIR/kaede-KTC9501$i.tr > $TOKEN_DIR/kaede-KTC9501$i.tr
