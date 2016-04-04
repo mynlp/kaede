@@ -107,7 +107,7 @@ symbol | definition
 -ADV | Adverbial modification
 -ADNOM | Adnominal modification
 -MSR | Measure expression
--FRAG | Fragmentation 
+-FRAG | Fragment
 
 
 ## Publications
