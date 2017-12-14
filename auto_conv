@@ -76,10 +76,12 @@ for i in $ARTICLE_RANGE
 do
     echo "merging 9501$i ..."
     $PYTHON $MERGE $DEST_DIR/9501$i.org $NOTOKEN_DIR/kaede-KTC9501$i.tr > $TOKEN_DIR/kaede-KTC9501$i.tr
+    $PYTHON $MERGE --annot morph $DEST_DIR/9501$i.org $NOTOKEN_DIR/kaede-KTC9501$i.morph > $TOKEN_DIR/kaede-KTC9501$i.morph
 done
 for i in $EDITORIAL_RANGE
 do
     echo "merging 95${i}ED ..."
     $PYTHON $MERGE $DEST_DIR/95${i}ED.org $NOTOKEN_DIR/kaede-KTC95${i}ED.tr > $TOKEN_DIR/kaede-KTC95${i}ED.tr
+    $PYTHON $MERGE --annot morph $DEST_DIR/95${i}ED.org $NOTOKEN_DIR/kaede-KTC95${i}ED.morph > $TOKEN_DIR/kaede-KTC95${i}ED.morph
 done
 echo "done"
