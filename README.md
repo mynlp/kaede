@@ -7,6 +7,7 @@ The treebank is designed to have complete binary trees, and
 is currently composed of about 10,000 sentences from 
 the Kyoto University Text Corpus (the Mainichi Shimbun Newspaper).
 
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Tags
 
@@ -109,6 +110,13 @@ symbol | definition
 -MSR | Measure expression
 -FRAG | Fragment
 
+## Developers
+
+- Takaaki Tanaka (NTT)
+- Masaaki Nagata (NTT)
+- Takuya Matsuzaki (Nagoya Univ.)
+- Yusuke Miyao (NII)
+- Sumire Uematsu (NII)
 
 ## Publications
 
