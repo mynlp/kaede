@@ -12,7 +12,7 @@ Due to the copyright issue, this repository provides only annotations, and does 
 1. Buy Mainichi Shimbun News Data.  You can purchase the data from [Nichigai Associates](http://www.nichigai.co.jp/sales/mainichi/mainichi-data.html).
 2. Run `auto_conv` (specify the directory of the Mainichi Shimbun News Data as a command-line argument).
 
-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Tags
 
