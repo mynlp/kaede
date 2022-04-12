@@ -9,7 +9,7 @@ the Kyoto University Text Corpus (the Mainichi Shimbun Newspaper).
 
 Due to the copyright issue, this repository provides only annotations, and does not include original raw text data.  In order to obtain a treebank with original raw texts, follow this procedure.
 
-1. Buy Mainichi Shimbun News Data.  You can purchase the data from [Nichigai Associates](http://www.nichigai.co.jp/sales/mainichi/mainichi-data.html).
+1. Buy Mainichi Shimbun News Data （毎日新聞記事データ集）.  You can purchase the data from [Nichigai Associates](https://www.nichigai.co.jp/sales/corpus.html).
 2. Run `auto_conv` (specify the directory of the Mainichi Shimbun News Data as a command-line argument).
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
